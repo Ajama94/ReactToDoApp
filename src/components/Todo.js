@@ -12,7 +12,7 @@ function Todo({todos, completeTodo, removeTodo, updateTodo }) {
     });
 
     const submitUpdate = value => {
-        updateTodo(edit.id, value)
+        updateTodo(edit.id, value);
         setEdit({
             id: null,
             value:''
